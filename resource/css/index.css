@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: black;
+    color: seashell;
+}
+/*header section*/
+li{
+    font-size: 20px;
+}
+header{
+    text-align: end;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+.logo{
+    float: left;
+    height: 50px;
+    margin-top: 9px;
+}
+.padding-side{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+}
+.navigation{
+    display: inline-block;
+    text-align: justify;
+    text-align-last: end;
+    align-items: center;
+    margin-top: 24px;
+}
+.menu{
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+}
+a {
+    color: seashell;
+}
+/*intro section*/
+.container{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main-box{
+    display: inline-block;
+    text-align: center;
+    height: 700px;
+    width: 1200px;
+}
+.box{
+    height: 100%;
+    width: 100%;
+    float: left;
+    background-image: url(../img/img-mission-background.jpg); 
+}
+.sub-box{
+    margin-top: 310px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    line-height: 30px;
+    opacity: 0.7;
+}
+/*promo section*/
+.tea img{
+    width: 300px;
+    height: 200px;
+    margin: 15px;
+}
+.promo{
+    display: inline-block;
+    text-align: center;
+    width: 1000px;
+}
+.boxpromo{
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+.offertea{
+    display: inline-block;
+}
+.tea{
+    float: left;
+}
+/*location section*/
+.adresses{
+    display: inline-block;
+    text-align: center;
+    height: 500px;
+    width: 1200px;
+    background-image: url(../img/img-locations-background.jpg);
+    padding-top: 50px;
+}
+.locations{
+    padding: 15px;
+}
+.adressbox{
+    display: inline-block;
+}
+.sub-adressbox{
+    height: 200px;
+    width: 300px;
+    background-color: black;
+    float: left;
+    padding-top: 15px;
+    opacity: 0.7;
+}
+.adressbox .sub-adressbox:nth-child(2) {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.sub-adressbox h4{
+    line-height: 60px;
+}
+
+/*footer section*/
+footer{
+    padding-left: 10px;
+}
+.contact{
+    height: 200px;
+    text-align: center;
+    line-height: 50px;
+}
+.copyright{
+    line-height: 60px;
+}
+/*responsive design*/
+@media only screen and (max-width: 667px)/*, (orientation: landscape)*/ {
+    .container,
+    .promo,
+    .main-box,
+    .adresses,
+    footer {
+        max-width: 667px;
+    }
+
+    .navigation {
+        text-align-last: start;
+    }
+
+    .main-box {
+        text-align: center;
+        margin-top: 0;
+        background-image: none;
+        height: auto;
+    }
+
+    .box {
+        height: 88px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .adresses {
+        height: auto;
+        padding-top: 0;
+    }
+
+    .main-box,
+    .offertea,
+    .adresses,
+    .adressbox {
+        display: block;
+    }
+
+    .box,
+    .tea,
+    .sub-adressbox {
+        float: none;
+    }
+
+    .contact {
+        height: 100px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .sub-adressbox h4 {
+        line-height: 20px;
+    }
+
+    .sub-adressbox {
+        height: 100px;
+        width: 300px;
+    }
+
+    .sub-box {
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .adressbox .sub-adressbox:nth-child(2),
+    .sub-adressbox {
+        margin: 0 auto;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .locations {
+        background-color: black;
+        opacity: 0.7;
+        width: 300px;
+        margin: 0 auto;
+        padding: 15px 0 10px;
+    }
+}
+@media only screen and (max-width: 568px) {
+    .container,
+    .promo,
+    .main-box,
+    .adresses,
+    footer {
+        max-width: 568px;
+        min-width: 470px;
+        height: auto;
+    }
+
+    .navigation {
+        text-align-last: start;
+    }
+
+    .main-box {
+        text-align: center;
+        margin-top: 0;
+        background-image: none;
+        height: auto;
+    }
+
+    .box {
+        height: 88px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .adresses {
+        height: auto;
+        padding-top: 0;
+    }
+
+    .main-box,
+    .offertea,
+    .adresses,
+    .adressbox {
+        display: block;
+    }
+
+    .box,
+    .tea,
+    .sub-adressbox {
+        float: none;
+    }
+
+    .contact {
+        height: 100px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .sub-adressbox h4 {
+        line-height: 20px;
+    }
+
+    .sub-adressbox {
+        height: 100px;
+        width: 300px;
+    }
+
+    .sub-box {
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .adressbox .sub-adressbox:nth-child(2),
+    .sub-adressbox {
+        margin: 0 auto;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .locations {
+        background-color: black;
+        opacity: 0.7;
+        width: 300px;
+        margin: 0 auto;
+        padding: 15px 0 10px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .logo {
+        display: none;
+    }
+
+    .container,
+    .promo,
+    .main-box,
+    .adresses,
+    footer {
+        max-width: 480px;
+        min-width: 470px;
+    }
+
+    .navigation {
+        text-align-last: start;
+    }
+
+    .main-box {
+        text-align: center;
+        margin-top: 0;
+        background-image: none;
+        height: auto;
+    }
+
+    .box {
+        height: 88px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .adresses {
+        height: auto;
+        padding-top: 0;
+    }
+
+    .main-box,
+    .offertea,
+    .adresses,
+    .adressbox {
+        display: block;
+    }
+
+    .box,
+    .tea,
+    .sub-adressbox {
+        float: none;
+    }
+
+    .contact {
+        height: 100px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .sub-adressbox h4 {
+        line-height: 20px;
+    }
+
+    .sub-adressbox {
+        height: 100px;
+        width: 300px;
+    }
+
+    .sub-box {
+        margin-top: 0;
+        padding: 10px 0;
+    }
+
+    .adressbox .sub-adressbox:nth-child(2),
+    .sub-adressbox {
+        margin: 0 auto;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .locations {
+        background-color: black;
+        opacity: 0.7;
+        width: 300px;
+        margin: 0 auto;
+        padding: 15px 0 10px;
+    }
+}
+
+
+        
+
