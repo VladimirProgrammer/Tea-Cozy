@@ -12,6 +12,7 @@ li{
     font-size: 20px;
 }
 header{
+    width: 100%;
     text-align: end;
     height: 69px;
     border-bottom: 1px solid seashell;
