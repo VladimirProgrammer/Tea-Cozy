@@ -16,6 +16,7 @@ header{
     height: 69px;
     border-bottom: 1px solid seashell;
 }
+
 .logo{
     float: left;
     height: 50px;
@@ -75,7 +76,7 @@ a {
 .promo{
     display: inline-block;
     text-align: center;
-    width: 1000px;
+    width: 1200px;
 }
 .boxpromo{
     margin-bottom: 10px;
@@ -120,6 +121,7 @@ a {
 
 /*footer section*/
 footer{
+    width: 100%;
     padding-left: 10px;
 }
 .contact{
